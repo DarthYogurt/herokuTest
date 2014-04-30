@@ -8,10 +8,10 @@ var app = express();
 //Server io==============================
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
-server.listen(8000);
+server.listen(80);
 
 //all environments =====================
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 80);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 //app.use(express.logger('dev'));
