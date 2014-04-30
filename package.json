@@ -1,14 +1,28 @@
 {
   "name": "herokuTest",
-  "description": "Testing Heroku",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
-		"colors": "*",
-	    "express": "*",
-	    "jade": "*",
-	    "mongoose": "*",
-	    "bcrypt-nodejs": "*",
-	    "socket.io": "*"
-  }
+    "bcrypt-nodejs": "~0.0.3",
+    "colors": "~0.6.2",
+    "express": "~4.1.1",
+    "jade": "~1.3.1",
+    "mongoose": "~3.8.8",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarthYogurt/herokuTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarthYogurt/herokuTest/issues"
+  },
+  "homepage": "https://github.com/DarthYogurt/herokuTest"
 }
